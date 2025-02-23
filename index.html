@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar New Year Sale</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .nav-buttons button {
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .login {
+            background: none;
+            color: black;
+        }
+
+        .register {
+            background: blue;
+            color: white;
+        }
+
+        /* Sale Banner */
+        .sale-banner {
+            background-color: #fdf5e6;
+            padding: 50px 20px;
+            position: relative;
+            text-align: center;
+        }
+
+        .sale-text {
+            font-size: 40px;
+            font-weight: bold;
+            color: red;
+            text-transform: uppercase;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .discount-text {
+            font-size: 100px;
+            color: red;
+            font-weight: bold;
+        }
+
+        .discount-text span {
+            font-size: 20px;
+            vertical-align: top;
+        }
+
+        .sale-buttons {
+            margin-top: 20px;
+        }
+
+        .sale-buttons button {
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #f5bbaa;
+            color: black;
+            margin: 5px;
+            transition: all 0.3s;
+        }
+
+        .sale-buttons button:hover {
+            background-color: #f08080;
+            color: white;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="#">Women</a>
+            <a href="#">Men</a>
+            <a href="#">Boys</a>
+            <a href="#">Girls</a>
+        </div>
+        <div class="brand">ZANDO</div>
+        <div class="nav-buttons">
+            <button class="login">Login</button>
+            <button class="register">Register</button>
+        </div>
+    </div>
+
+    <!-- Sale Banner -->
+    <div class="sale-banner">
+        <div class="sale-text">Lunar New Year Sale</div>
+        <div class="discount-text">Up to <span>70%</span> Off</div>
+        <p style="color: red;">T&Cs Apply</p>
+        <div class="sale-buttons">
+            <button>Shop Women</button>
+            <button>Shop Men</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2025 Zando - All Rights Reserved.
+    </div>
+
+</body>
+</html>
